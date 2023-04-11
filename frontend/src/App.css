@@ -1,0 +1,422 @@
+.App {
+  text-align: center;
+  background-color: #181b20;
+  height: 100vh;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+#nav-gap{
+  height: 80px;
+}
+
+header {
+  position: fixed;
+  z-index: 90;
+  width: 100%;
+  height: 80px;
+  background-color: #181b20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.logo img {
+  max-width: 75px;
+  cursor: pointer;
+}
+
+.nav-bar ul {
+  display: flex;
+  margin-top: 10px;
+}
+
+.nav-bar ul li {
+  display: block;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin: 0 5px;
+  
+}
+
+.nav-bar ul li a {
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.nav-bar ul li a:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.nav-bar ul li a.active {
+  color: white;
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger h1 {
+    color: #ffffff;    
+  }
+
+  .nav-bar {
+    position: absolute;
+    height: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #181b20;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+
+  .nav-bar.active{
+    height: 375px;
+  }
+  
+  .nav-bar ul{
+    display: block;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+
+  .nav-bar ul li {
+    margin-bottom: 12px;
+    font-size: 25px;
+  }
+}
+
+#home {
+  color: #ffffff;
+  background-image: url('../public/home_background.jpg');
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+  position: sticky;
+  width: 100%;
+  height: 100%;
+}
+
+.home-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-container img {
+  max-width: 45vh;
+}
+
+.home-container .my-name {
+  font-size: 11vh;
+  margin-top: -2vh;
+}
+
+.home-container #intro {
+  color: rgb(255, 255, 255);
+  font-size: 3vh;
+}
+
+.home-container #occupation {
+  color: rgb(0, 225, 255);
+  font-size: 3vh;
+}
+
+#about {
+  height: 100%;
+  background-image: url(../public/aboutbackground.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#projects {
+  height: 100%;
+  background-image: url(../public/portfoliobackground.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#skills {
+  height: 100%;
+  background-image: url(../public/skillsbackground.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#resume {
+  height: 100%;
+  background-image: url(../public/resumebackground.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contact {
+  height: 100%;
+  background-image: url(../public/contactbackground.jpg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.message-sent {
+  padding-top: 25vh;
+}
+
+.section-container {
+  text-align: center;
+  height: 100%;
+  background: rgba(4, 4, 20, 0.75)
+}
+
+.section-container h1 {
+  font-size: 6vh;
+  padding: 6% 0 0 0;
+  opacity: 100%;
+  color: white;
+}
+
+.section-container h2, h3,
+h4 {
+  padding: .5% 0% 3% 0%;
+  color: white;
+}
+
+.section-container h4 a {
+  text-decoration: none;
+}
+
+.section-container p {
+  font-size: 2.5vh;
+  padding: 3% 10%;
+  color: white;
+}
+
+.section-container #headshot {
+  margin-top: 5vh;
+  width: 25vh;
+}
+
+.projects-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 2.5vw;
+}
+
+.projects-list h2 {
+  color: white;
+}
+
+.projects-list h3 {
+  background-color: rgb(216, 216, 216);
+  color: black;
+  padding: 2%;
+}
+
+.projects-list p {
+  font-size: 2vh;
+  padding: 2%;
+}
+
+.projects-list li {
+  background-color: rgba(4, 4, 20, 0.75);
+}
+
+.projects-list .left,
+.right {
+  padding: 1%;
+}
+
+.resume {
+  list-style-type: none;
+  display: flex;
+
+  flex-direction: row;
+  margin-right: 2.5vw;
+}
+
+.resume h2 {
+  color: white;
+}
+
+.resume h3 {
+  color: white;
+  padding: 2%;
+}
+
+.resume p {
+  font-size: 2vh;
+  padding: 2%;
+}
+
+.resume li {
+  background-color: rgba(4, 4, 20, 0.75);
+}
+
+.resume .left,
+.center,
+.right {
+  padding: 1%;
+}
+
+.skills li {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#github-intro {
+  padding: 2%;
+}
+
+#skills-list p {
+  font-size: 12vh;
+  padding-bottom: 4%;
+}
+
+#skills-list p:hover {
+  cursor: default;
+}
+
+form {
+  padding: 0% 2% 0% 2%;
+  width: 80vh;
+  margin: auto;
+}
+
+
+.form {
+color: rgba(0,0,0,.87);
+border-bottom-color: rgba(0,0,0,.42);
+font-size: 1rem;
+font-weight: 400;
+letter-spacing: .009375em;
+text-decoration: inherit;
+text-transform: inherit;
+align-self: flex-end;
+box-sizing: border-box;
+width: 100%;
+padding: 20px 16px 6px;
+margin-bottom: 3px;
+transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+border: none;
+border-bottom: 1px solid;
+border-radius: 4px 4px 0 0;
+background: rgb(245, 245, 245, 0.85);
+height: 56px;
+}
+
+.form:hover{
+  border-bottom-color: rgba(0,0,0,.87);
+  background: #ececec;
+}
+
+.form:focus{
+  border-color: #6200ee;
+}
+
+.form-ta {
+  color: rgba(0,0,0,.87);
+  border-bottom-color: rgba(0,0,0,.42);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .009375em;
+  text-decoration: inherit;
+  text-transform: inherit;
+  align-self: flex-end;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 16px 6px;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 4px 4px 0 0;
+  background: rgb(245, 245, 245, 0.85);
+  height: 200px;
+  resize: none;
+  }
+  
+  .form-ta:hover{
+    border-bottom-color: rgba(0,0,0,.87);
+    background: #ececec;
+  }
+  
+  .form-ta:focus{
+    border-color: #6200ee;
+  }
+
+  form label {
+    color: red;
+  }
+
+  @media (max-width: 800px) {
+
+    .section-container {
+      height: 100%;
+    }
+
+    .section-container h1 {
+      padding-top: 10vh;
+    }
+
+    #about {
+      height: 115vh;
+    }
+  
+    #projects {
+      height: 125vh;
+    }
+
+    #skills {
+      height: 140vh;
+    }
+  
+    .projects-list {
+      flex-direction: column;
+    }
+  
+    .navbar {
+      display: none;
+    }
+
+    form {
+      width: 80vw;
+    }
+  }
+
