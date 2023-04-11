@@ -12,6 +12,11 @@ import { SiMongodb } from 'react-icons/si'
 import { SiJest } from 'react-icons/si'
 
 export const Skills = () => {
+
+    const goToResume = () => {
+        window.location.href = 'https://drive.google.com/file/d/10YN0J1hyYFHnrbS9Ys1AiYXRWCv9oDL5/view?usp=sharing'
+    }
+
     return(
         <>
             <div className='section-container'>
@@ -21,7 +26,7 @@ export const Skills = () => {
                     <p><SiJavascript /> <GrReactjs /> <FaNode /> <SiMysql /> <SiMongodb /> <SiJest/><br/>
                     <HTML/> <CSS/> <FaJava/> <FaPhp/></p>
                 </div>
-                <Button variant="outline-info">View Complete Resume</Button>
+                <Button variant="outline-info" onClick={goToResume}>View Complete Resume</Button>
             </div>
         </>
     )

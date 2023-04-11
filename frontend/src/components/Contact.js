@@ -2,8 +2,8 @@ import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { GoAlert as Caution } from 'react-icons/go'
 import { BsLinkedin as Linkedin } from 'react-icons/bs'
-import { BsFillCheckCircleFill as Check } from 'react-icons/bs'
 import { useState } from 'react'
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
 
@@ -26,8 +26,23 @@ export const ContactForm = () => {
     }
 
     const submitForm = async () => {
+
+        const templateParams ={
+            name: name,
+            email: email,
+            subject: subject,
+            message: message
+        }
+
+        emailjs.send('service_ec186hq', 'template_r0esrve', templateParams, 'LBhuU58PZzIyMCJ-Z')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        
+        console.log("Message was sent!")
         setIsSent(true)
-        console.log('sent')
     }
 
     return (
