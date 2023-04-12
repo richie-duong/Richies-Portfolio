@@ -6,10 +6,10 @@ import { Navbar } from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
         <Routes>
-          <Route path='/' element={<PagesLayout />}/>
+          <Route exact path='/' render={() => <PagesLayout />}/>
         </Routes>
       </BrowserRouter>
     </div>
