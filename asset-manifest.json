@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Richies-Portfolio/static/css/main.18ffaf2c.css",
-    "main.js": "/Richies-Portfolio/static/js/main.6ca31530.js",
+    "main.js": "/Richies-Portfolio/static/js/main.33e9f718.js",
     "static/js/787.c4fb7223.chunk.js": "/Richies-Portfolio/static/js/787.c4fb7223.chunk.js",
     "static/media/skillsbackground.jpg": "/Richies-Portfolio/static/media/skillsbackground.e084386503f14ef00734.jpg",
     "static/media/aboutbackground.jpg": "/Richies-Portfolio/static/media/aboutbackground.f21f45341e3bf0055faa.jpg",
@@ -11,11 +11,11 @@
     "static/media/portfoliobackground.jpg": "/Richies-Portfolio/static/media/portfoliobackground.497a1e89083f5a4fc9a5.jpg",
     "index.html": "/Richies-Portfolio/index.html",
     "main.18ffaf2c.css.map": "/Richies-Portfolio/static/css/main.18ffaf2c.css.map",
-    "main.6ca31530.js.map": "/Richies-Portfolio/static/js/main.6ca31530.js.map",
+    "main.33e9f718.js.map": "/Richies-Portfolio/static/js/main.33e9f718.js.map",
     "787.c4fb7223.chunk.js.map": "/Richies-Portfolio/static/js/787.c4fb7223.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18ffaf2c.css",
-    "static/js/main.6ca31530.js"
+    "static/js/main.33e9f718.js"
   ]
 }
