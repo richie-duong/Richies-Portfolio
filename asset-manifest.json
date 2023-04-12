@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/richies-portfolio/static/css/main.f3c9b1fe.css",
-    "main.js": "/richies-portfolio/static/js/main.6ec9cec1.js",
-    "static/js/787.c4fb7223.chunk.js": "/richies-portfolio/static/js/787.c4fb7223.chunk.js",
-    "static/media/skillsbackground.jpg": "/richies-portfolio/static/media/skillsbackground.e084386503f14ef00734.jpg",
-    "static/media/aboutbackground.jpg": "/richies-portfolio/static/media/aboutbackground.f21f45341e3bf0055faa.jpg",
-    "static/media/home_background.jpg": "/richies-portfolio/static/media/home_background.a11e80c729540caf30c6.jpg",
-    "static/media/contactbackground.jpg": "/richies-portfolio/static/media/contactbackground.8b060548c9548ce7b5e1.jpg",
-    "static/media/resumebackground.jpg": "/richies-portfolio/static/media/resumebackground.1d3008cbe44152e769b6.jpg",
-    "static/media/portfoliobackground.jpg": "/richies-portfolio/static/media/portfoliobackground.497a1e89083f5a4fc9a5.jpg",
-    "index.html": "/richies-portfolio/index.html",
-    "main.f3c9b1fe.css.map": "/richies-portfolio/static/css/main.f3c9b1fe.css.map",
-    "main.6ec9cec1.js.map": "/richies-portfolio/static/js/main.6ec9cec1.js.map",
-    "787.c4fb7223.chunk.js.map": "/richies-portfolio/static/js/787.c4fb7223.chunk.js.map"
+    "main.css": "/Richies-Portfolio/static/css/main.18ffaf2c.css",
+    "main.js": "/Richies-Portfolio/static/js/main.6ca31530.js",
+    "static/js/787.c4fb7223.chunk.js": "/Richies-Portfolio/static/js/787.c4fb7223.chunk.js",
+    "static/media/skillsbackground.jpg": "/Richies-Portfolio/static/media/skillsbackground.e084386503f14ef00734.jpg",
+    "static/media/aboutbackground.jpg": "/Richies-Portfolio/static/media/aboutbackground.f21f45341e3bf0055faa.jpg",
+    "static/media/home_background.jpg": "/Richies-Portfolio/static/media/home_background.a11e80c729540caf30c6.jpg",
+    "static/media/contactbackground.jpg": "/Richies-Portfolio/static/media/contactbackground.8b060548c9548ce7b5e1.jpg",
+    "static/media/resumebackground.jpg": "/Richies-Portfolio/static/media/resumebackground.1d3008cbe44152e769b6.jpg",
+    "static/media/portfoliobackground.jpg": "/Richies-Portfolio/static/media/portfoliobackground.497a1e89083f5a4fc9a5.jpg",
+    "index.html": "/Richies-Portfolio/index.html",
+    "main.18ffaf2c.css.map": "/Richies-Portfolio/static/css/main.18ffaf2c.css.map",
+    "main.6ca31530.js.map": "/Richies-Portfolio/static/js/main.6ca31530.js.map",
+    "787.c4fb7223.chunk.js.map": "/Richies-Portfolio/static/js/787.c4fb7223.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c9b1fe.css",
-    "static/js/main.6ec9cec1.js"
+    "static/css/main.18ffaf2c.css",
+    "static/js/main.6ca31530.js"
   ]
 }
