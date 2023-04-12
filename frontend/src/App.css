@@ -245,9 +245,19 @@ h4 {
 }
 
 .projects-list h3 {
+  background-color: #181b20;
+  color: white;
+  padding: 2%;
+  transition: 0.2s;
+}
+
+.projects-list h3:hover{
   background-color: rgb(216, 216, 216);
   color: black;
-  padding: 2%;
+}
+
+.projects-list a {
+  text-decoration: none;
 }
 
 .projects-list p {

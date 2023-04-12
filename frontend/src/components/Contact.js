@@ -76,7 +76,7 @@ export const ContactForm = () => {
                         <textarea className="form-ta" placeholder="Message"
                             onChange={(e) => setMessage(e.target.value)}
                             value={message} /><br />
-                        {(displayErr ? <label><Caution /> Your message has not been sent. Please make sure all fields are completed.</label> : null)}<br /><br />
+                        {(displayErr ? <label><Caution /> Your message has not been sent. Please make sure all fields are filled completely.</label> : null)}<br /><br />
                         <Button type="submit">Send Message</Button>
                     </form>
                 </div>
