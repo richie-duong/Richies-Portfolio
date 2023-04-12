@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
 import { PagesLayout } from './pages/PagesLayout';
 import { Navbar } from './components/Navbar';
@@ -6,12 +6,12 @@ import { Navbar } from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
       <Navbar />
         <Routes>
-          <Route exact path='/' render={() => <PagesLayout />}/>
+          <Route exact path='/' component={<PagesLayout />}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
