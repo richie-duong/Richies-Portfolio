@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
       <Navbar />
         <Routes>
-          <Route path='/richies-portfolio/' element={<PagesLayout />}/>
+          <Route path='/' element={<PagesLayout />}/>
         </Routes>
       </BrowserRouter>
     </div>
