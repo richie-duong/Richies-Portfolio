@@ -6,4 +6,4 @@ Below is a complete list of libraries used within this project:
 * [React-Scroll](https://www.npmjs.com/package/react-scroll) - React component that allows for vertical scrolling animation upon clicking on navigation bar elements.
 * [React-Icons](https://react-icons.github.io/react-icons/) - Library that allows for inclusion of popular icons utilizing ES6 imports to be used within React.js project. This was used heavily in the 'Skills' section of this project.
 * [React-Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) - Used for styling buttons.
-* [EmailJS]([https://www.emailjs.com/](https://www.emailjs.com/docs/examples/reactjs/)) - Library for popular frameworks such as React.js, responsible for sending emails using client-side technology, no servers being required. This was used in the 'Contact Me' form and is fully functioning.
+* [EmailJS](https://www.emailjs.com/](https://www.emailjs.com/docs/examples/reactjs/) - Library for popular frameworks such as React.js, responsible for sending emails using client-side technology, no servers being required. This was used in the 'Contact Me' form and is fully functioning.
